@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cod Faraz</title>
+    <link rel="stylesheet" href="css.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Bebas Neue", sans-serif;
+  background-color: #252525;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #242f38;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#ulimg {
+  float: right;
+  justify-content: right;
+  justify-items: right;
+  margin-top: 4%;
+  margin-right: 5%;
+  width: 30%;
+}
+li {
+  float: left;
+  padding: 0%;
+  margin: 0%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #df7c0b;
+}
+#hero {
+  background-image: url("https://i.pinimg.com/originals/bc/14/e2/bc14e2363b50b0b73f2a50c7af437e55.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin: 0%;
+  padding: 0%;
+}
+#hero button {
+  margin: 0;
+  position: absolute;
+  top: 69%;
+  left: 20%;
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 3% 15%;
+  border: none;
+  border-radius: 50px;
+  background-color: #df7c0b;
+  font-weight: bold;
+  box-shadow: 5px 4px 3px rgb(0, 0, 0);
+}
+#hero button:hover {
+  background-color: #c26c0a;
+}
+
+#hero h1 {
+  font-size: 3.5rem;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  color: rgb(198, 253, 0);
+  text-shadow: 5px 5px 3px #000000;
+}
+#hero h2 {
+  font-size: 2rem;
+  position: absolute;
+  top: 61%;
+  left: 20%;
+  color: aliceblue;
+}
+.section1 {
+  background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/touts/2024/07/BLACKCELL_S05_BNET_867x376_4SEC_static.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding: 3%;
+  margin: 5% 8%;
+  border-radius: 50px;
+}
+.section1 h1,
+h2,
+p,
+button {
+  margin: 1% 5%;
+}
+.section1 button {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 50px;
+  padding: 3% 35%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+}
+.section2 {
+  background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/touts/2024/07/MWIII_S5_KA_Tout.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding: 3%;
+  margin: 5% 8%;
+  border-radius: 50px;
+}
+.section2 button {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 50px;
+  padding: 3% 35%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+}
+.section2 h1,
+h2,
+p,
+button {
+  margin: 1% 5%;
+}
+.section3 {
+  background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mobile/home/multiplayermaps/maps-crash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  padding: 3%;
+  margin: 5% 8%;
+  border-radius: 50px;
+}
+.section3 button {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 50px;
+  padding: 3% 35%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+}
+.section3 h1,
+h2,
+p,
+button {
+  margin: 1% 5%;
+}
+#footer {
+  background-color: #111;
+  padding-bottom: 1%;
+}
+#f {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 5%;
+}
+#footer p {
+  color: aliceblue;
+  font-size: 0.8rem;
+  margin: 5% 10%;
+  text-align: center;
+}
+.section1 button,
+.section2 button,
+.section3 button {
+  transition: background-color 0.3s ease-in-out;
+}
+#email {
+  margin-left: 3%;
+  padding: 2% 5% 2% 3%;
+  border-radius: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border: none;
+}
+#footer button {
+  background-color: rgb(255, 0, 0);
+  font-size: 1.2rem;
+  padding: 2% 9%;
+  
+  border: none;
+  border-radius: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+}
+#news {
+  background-color: aliceblue;
+  padding: 5% 1%;
+  margin: 5% 0%;
+}
+.newsimg {
+  width: 80%;
+  border-radius: 50px;
+  margin-left: 40px;
+  padding-top: 5%;
+  float: center;
+}
+#news h2 {
+  color: black;
+  font-size: 3rem;
+  margin-top: 1%;
+  text-align: center;
+}
+.news1 {
+  background-color: #242f38;
+  border-radius: 50px;
+  padding: 5% 0%;
+  margin-top: 5%;
+}
+#news h3 {
+  margin: 1% 11%;
+  font-size: 2rem;
+  color: white;
+}
+#news p {
+  margin: 1% 11%;
+  color: lightgrey;
+  font-weight: lighter;
+}
+#news button {
+  background-color: #df7c0b;
+  border: none;
+  border-radius: 50px;
+  padding: 2% 10%;
+  font-size: 1rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#hero">Home</a></li>
+      <li><a href="#main">News</a></li>
+      <li><a href="#footer">Subscribe</a></li>
+      <img
+        src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/cod-logo.svg"
+        alt=""
+        id="ulimg"
+      />
+    </ul>
+    <section id="hero">
+      <h1>Call of duty</h1>
+      
+      <button>More Info</button>
+    </section>
+    <section id="main">
+      <section class="section1">
+        <h1>call of duty mobile</h1>
+        <h2>Blackcell</h2>
+        
+        <button>Level up</button>
+      </section>
+      <section class="section2">
+        <h1>call of duty mobile</h1>
+        <h2>battle royall</h2>
+        <p>
+          Get in the ring to fight for your life and hope you are just good
+          enough to survive
+        </p>
+        <button>Start now</button>
+      </section>
+      <section class="section3">
+        <h1>call of duty mobile</h1>
+        <h2>New map : Crash</h2>
+        <p>
+          Take a good look around you as some snipers are ready to send you to
+          the respawn point
+        </p>
+        <button>Download</button>
+      </section>
+      <section id="news">
+        <h2>News</h2>
+
+        <section class="news1">
+          <img
+            src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/bo6/BO6-ZOMBIES-888-TOUT.jpg"
+            alt="News image"
+            class="newsimg"
+          />
+          <h3>BO6 Zombies 888</h3>
+          <p>
+            Extensive comms direct from the Treyarch Zombies Team includes an
+            expansive Gameplay Overview, a detailed look at your pre-game
+            preparation options, full details on Round-Based Gameplay, as well
+            as a bestiary of the Terminus undead.
+          </p>
+          <button>Check it out</button>
+        </section>
+        <section class="news1">
+          <img
+            src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwiii/MWIII-S05-BATTLEPASS-TOUT.jpg"
+            alt="News image"
+            class="newsimg"
+          />
+          <h3>
+            MODERN WARFARE III, CALL OF DUTY: WARZONE UND CALL OF DUTY: WARZONE
+            MOBILE
+          </h3>
+          <p>
+            Step into the ring in an electrifying Season 5, featuring new
+            content in the Battle Pass, BlackCell, and Store. Pave your way to
+            champion status with skins from WWE Superstars and others eager to
+            battle, plus new weapon blueprints and more.
+          </p>
+          <button>Install now</button>
+        </section>
+      </section>
+    </section>
+    <section id="footer">
+      <img
+        src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/cod-logo.svg"
+        alt="call of duty"
+        id="f"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="farazhagh@gmail.com"
+        id="email"
+      />
+      <button>submit</button>
+      <p>
+        © 2024 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY, CALL OF
+        DUTY LEAGUE, CALL OF DUTY MODERN WARFARE, MODERN WARFARE, CALL OF DUTY
+        BLACK OPS, CALL OF DUTY WARZONE, WARZONE and CALL OF DUTY VANGUARD are
+        trademarks and trade names of Activision Publishing, Inc. All other
+        trademarks and trade names are the property of their respective owners.
+      </p>
+    </section>
+  </body>
+</html>
